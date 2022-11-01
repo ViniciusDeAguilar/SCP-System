@@ -29,6 +29,6 @@ RF5: O sistema deve garantir o registro de vendas localmente quando estiver offl
 ========================== Tecnologias Para O Desenvolvimento ==========================
 
 -- C#
--- DOTNET Framework
+-- .Net Framework
 -- MAUI
 -- MySQL
