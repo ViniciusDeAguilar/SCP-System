@@ -1,0 +1,34 @@
+-------------------------- Declaração Problema --------------------------
+
+Desenvolver um sistema mobile que facilite o genrenciamento do negócio, possibilitando o controle de estoque, caixa, fluxo de vendas e vendedores ativos.
+
+========================== Levantamento De Requisitos ==========================
+
+==== Requisitos Funcionais
+
+R1: Registrar, editar e deletar vendedores e armazenar seus respectivos dados relevantes.
+R2: Registrar, editar e deletar os produtos disponíveis a venda.
+R3: Gerir o estoque geral e quantas unidades de cada produto está em posse de cada vendedor (Estoque do Vendedor).
+R6: O vendedor deve iniciar uma nova jornada sempre que for sair para vender, registrando o horário de início e os produtos que serão levados com o mesmo.
+R5: O aplicativo deve registrar as vendas, dando baixa dos produtos vendidos no estoque do vendedor e no estoque geral (ao fim da jornada).
+R6: A venda deve registrar a forma de pagamento, produtos vendidos e data e hora da venda. 
+R7: Devem haver 2 tipos de permição no sistema: vendedor e gerente.
+R8: A permição de gerente deve garantir acesso e gerência ao estoque geral, aos estoques dos vendedores, histórico de vendas, caixa geral e caixa do vendedor.
+R9: A permição de vendedor deve garantir acesso ao estoque do vendedor em questão e ao histórico de vendas do mesmo.
+R10: O sistema deve requisitar que o gerente confirme se os dados registrados pelos vendedores (caixa e estoque) condizem com a materialidade e só então atualizar o caixa geral e estoque geral. 
+R?: O sistema deve passar as informações da base de dados para uma planilha do excel.
+
+==== Requisitos Não Funcionais
+
+RF1: O sistema deve funcionar em qualquer plataforma mobile.
+RF2: A interface deve ser simples e limpa, garantindo a facilidade do vendedor em fazer uso do sistema.
+RF3: O aplicativo deve ser leve e consumir pouca bateria.
+RF4: O sistema deve garantir a comunicação entre estoques quando utilizado por meio de conexões 4G.
+RF5: O sistema deve garantir o registro de vendas localmente quando estiver offline.
+
+========================== Tecnologias Para O Desenvolvimento ==========================
+
+-- C#
+-- DOTNET Framework
+-- MAUI
+-- MySQL
